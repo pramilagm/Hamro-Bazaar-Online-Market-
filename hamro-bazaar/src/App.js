@@ -11,7 +11,7 @@ import Default from "./Components/Default";
 class App extends Component {
   render() {
     return (
-      <div className="container">
+      <React.Fragment>
         <Navbar></Navbar>
         <Switch>
           <Route exact path="/" component={Products} />
@@ -19,7 +19,7 @@ class App extends Component {
           <Route path="/cart" component={Cart} />
           <Route component={Default} />
         </Switch>
-      </div>
+      </React.Fragment>
     );
   }
 }
