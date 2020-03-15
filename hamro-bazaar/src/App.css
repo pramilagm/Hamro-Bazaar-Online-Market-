@@ -5,6 +5,7 @@
   --mainDark: #232528;
   --mainYellow: #ffa400;
   --mainOrange: #da9962;
+  --mainPink: #db7093;
 }
 body {
   font-family: "Oswald", sans-serif !important;
@@ -27,4 +28,7 @@ body {
 }
 .text-Yellow {
   color: var(--mainYellow);
+}
+.text-pink {
+  color: var(--mainPink);
 }
