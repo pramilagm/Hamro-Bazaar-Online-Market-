@@ -58,10 +58,13 @@ const ModalContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 5px 10px #888888;
-  transition: all 1s linear !important;
+  transition: all 2s linear !important;
+#modal:hover{
+    background: #AD265C;
 
+}
   #modal {
-    background: var(--mainWhite);
+    background: #FFFFFF ;
   }
 `;
+//
